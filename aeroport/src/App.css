@@ -1,3 +1,58 @@
 .App {
   text-align: center;
 }
+body {
+  padding-top: 20px;
+  background-color: lightgoldenrodyellow;
+}
+.tickets {
+  list-style: none;
+}
+.tickets__btn-buy-wrapper {
+  align-items: center;
+  float: left;
+  height: 100%;
+  display: flex;
+  margin: 0 1em;
+  border: 1px solid black; 
+}
+.btn-success {
+  background-color: rgb(255, 101, 45);
+  border: 0px;
+}
+
+
+.tickets li {
+  clear: both;
+  height: 115px;
+  padding-top: 15px;
+}
+
+
+
+
+ul.specs {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.specs > li{
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+ul.specs > li > span{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+ul.specs dt {
+  font-weight: bold;
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+}
